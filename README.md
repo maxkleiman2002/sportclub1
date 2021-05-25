@@ -13,7 +13,7 @@ cd app
 ```
 - Активувати віртуальне середовище
 ```shell
-source bin/activate
+Scripts\activate.bat
 ```
 - Зайти в папку з додатком
 ```shell
@@ -23,7 +23,7 @@ cd sportclub
 ```shell
 python -m pip install -r requiriments.txt
 ```
-- Мігрувати базу даних та апустити тестовий сервер
+- Мігрувати базу даних та запустити тестовий сервер
 ```shell
 python ./manage.py migrate
 python ./manage.py runserver
